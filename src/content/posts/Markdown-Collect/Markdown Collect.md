@@ -2,11 +2,9 @@
 title: Markdown Collect
 published: 2024-08-22 18:29:34
 description: 结合Markdown和Hexo特性的一篇写作指南
-categories:
-  - Writing
-tags:
-  - Markdown
-  - Hexo
+categories: Writing
+tags: [Markdown, Hexo]
+draft: false
 ---
 
 # 结合Markdown和Hexo特性的一篇写作指南
