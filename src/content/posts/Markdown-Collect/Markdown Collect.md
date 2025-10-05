@@ -1,7 +1,7 @@
 ---
 title: Markdown Collect
 published: 2024-08-22 18:29:34
-description: 结合Markdown和Hexo特性的一篇写作指南
+description: Markdown写作指南
 categories: Writing
 tags: [Markdown, Hexo]
 draft: false
@@ -280,18 +280,6 @@ Hexo打开文章资源文件夹功能后，
 ![图片不存在](<Markdown Collect/example.jpg> "图片title")
 
 上面的示例中同样展示了文件路径存在空格时，可以使用的解决办法
-
-#### 使用相对路径引用的标签插件(Hexo)
-{% asset_img example.jpg This is a example image %}
-路径存在空格时使用"包围
-
-#### 使用 Markdown 嵌入图片(Hexo)
-需开启下面配置
-post_asset_folder: true
-marked:
-  prependRoot: true
-  postAsset: true
-![图片不存在](example.jpg "This is a example image")
 ```
 
 类似链接，前面加上!
@@ -302,16 +290,6 @@ Hexo打开文章资源文件夹功能后，
 它将不会出现在首页上
 ![图片不存在](<Markdown Collect/example.jpg> "图片title")
 
-#### 使用相对路径引用的标签插件(Hexo)
-{% asset_img example.jpg This is a example image %}
-
-#### 使用 Markdown 嵌入图片(Hexo)
-需开启下面配置
-post_asset_folder: true
-marked:
-  prependRoot: true
-  postAsset: true
-![图片不存在](example.jpg "This is a example image")
 
 #### 调整图片的大小
 ##### 使用HTML
@@ -320,19 +298,10 @@ marked:
 <img src="example.jpg" width=70%>
 <img src="example.jpg" width=300 height=300>
 ```
+
 ![图片不存在](example.jpg =300x300 "This is a example image")
 <img src="example.jpg" width=70%>
 <img src="example.jpg" width=300 height=300>
-
-##### 标签插件（Hexo）
-```Markdown
-{% img [class names] /path/to/image [width] [height] '"title text" "alt text"' %}
-上面这个不太好用，路径不加/时，会认作[class names]
-{% asset_img example.jpg 600 200 %}
-```
-
-{% asset_img example.jpg 700 200 %}
-<br>
 
 ## 转义字符Escape
 ```Markdown
