@@ -1,13 +1,12 @@
 ---
 title: Markdown Collect
-excerpt: 结合Markdown和Hexo特性的一篇写作指南
+published: 2024-08-22 18:29:34
+description: 结合Markdown和Hexo特性的一篇写作指南
 categories:
   - Writing
 tags:
   - Markdown
   - Hexo
-abbrlink: 53145
-date: 2024-08-22 18:29:34
 ---
 
 # 结合Markdown和Hexo特性的一篇写作指南
