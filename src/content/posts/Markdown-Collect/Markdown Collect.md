@@ -281,19 +281,6 @@ This is [`code link`](example.com.code)
 
 ![图片不存在](<example.jpg> "图片title")
 
-
-#### 调整图片的大小
-##### 使用HTML
-```Html
-![图片不存在](example.jpg =300x300 "This is a example image")
-<img src="example.jpg" width=70%>
-<img src="example.jpg" width=300 height=300>
-```
-
-![图片不存在](example.jpg =300x300 "This is a example image")
-<img src="example.jpg" width=70%>
-<img src="example.jpg" width=300 height=300>
-
 ## 转义字符Escape
 ```Markdown
 \- a
