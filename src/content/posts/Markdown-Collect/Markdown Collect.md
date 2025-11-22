@@ -277,7 +277,7 @@ This is [`code link`](example.com.code)
 Hexo打开文章资源文件夹功能后，
 如果通过使用相对路径的常规 markdown 语法，
 它将不会出现在首页上
-![图片不存在](<Markdown Collect/example.jpg> "图片title")
+![图片不存在](<example.jpg> "图片title")
 
 上面的示例中同样展示了文件路径存在空格时，可以使用的解决办法
 ```
@@ -288,7 +288,7 @@ Hexo打开文章资源文件夹功能后，
 Hexo打开文章资源文件夹功能后，
 如果通过使用相对路径的常规 markdown 语法，
 它将不会出现在首页上
-![图片不存在](<Markdown Collect/example.jpg> "图片title")
+![图片不存在](<example.jpg> "图片title")
 
 
 #### 调整图片的大小
